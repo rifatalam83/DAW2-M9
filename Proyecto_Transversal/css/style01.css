@@ -1,0 +1,585 @@
+body p{
+    font-size: 20px;
+}
+.menu img{
+    position: relative;
+    width:40px;
+    margin-top: 20px;
+    max-width: auto;
+}
+.fondomenu{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: -50px;
+    text-align: center;
+    -webkit-writing-mode: vertical-lr;
+    -moz-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    background-color: #FFF;
+}
+.fondomenu a{
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.5em;
+  font-size: .9rem;
+  font-weight: bold;
+}
+a:hover{
+    color:red;
+}
+
+ .social img{
+    position: relative;
+    width:20px;
+    left:550px;
+    margin-top:40px;
+    padding:6px;
+}
+.share{
+    position: absolute;
+    top:900px;
+}
+.presentacion img{
+    position: relative;
+    left:1350px;
+    height:900px;
+    top:20px;
+    max-width: auto;
+}
+.cabecera{
+    background-color: 	#F0F0F0;
+    margin-top: -80px;
+    height: 1000px;
+    width: auto;
+}
+.freelancer{
+    position: relative;
+    left:550px;
+    top:-600px;
+    font-size: 22px;
+}
+.more{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    background-color:red;
+    border-color: #ccc;
+    left:550px;
+    top:-550px;
+  }
+  .user img{
+    position:relative;
+    width: 15px;
+    left:390px;
+    top:-550px;
+    height:auto;
+    max-width: auto;
+  }
+  
+.email{
+    position: relative;
+    left:550px;
+    top:-350px;
+}
+.phone{
+    position: relative;
+    left:750px;
+    top:-435px;
+    
+}
+.location{
+    position: relative;
+    left:910px;
+    top:-520px;
+}
+.about{
+    position: absolute;
+    left:550px;
+    margin-top:70px ;
+    margin-right: 750px;
+}
+.me{
+    font-size: bolder;
+}
+.presentacion_about{
+    position: relative;
+    left:500px;
+    top:-370px;
+}
+.personal1_about h4{
+    position: relative;
+    margin-bottom: -35px;
+    top:10px;
+}
+.personal2_about h4{
+    position: relative;
+    margin-bottom: -32px;
+    top:120px;
+}
+.personal1_about p{
+    position: relative;
+    vertical-align: left;
+    top:3px;
+}
+.personal2_about p{
+    position: relative;
+    vertical-align: left;
+    top:110px;
+}
+.personal1_about #nombre{
+    left:56px;
+}
+.personal1_about #fecha{
+    left:102px;
+}
+.personal1_about #nacionalidad{
+    left:90px;
+}
+.personal1_about #work{
+    left:98px;
+}
+.personal2_about{
+    position: relative;
+    left:500px;
+    top:-370px;
+}
+.personal2_about #phone2{
+    left:58px;
+}
+.personal2_about #email2{
+    left:58px;
+}
+.personal2_about #address2{
+    left:69px;
+}
+.personal2_about #freelancer2{
+    left:85px;
+}
+.cv{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    background-color:red;
+    border-color: #ccc;
+}
+.download img{
+    position:relative;
+    width: 15px;
+    left:-186px;
+    top:10px;
+    height:23px;
+    width:23px;
+}
+.logros img{
+    width:30px;
+    max-width: auto;
+}
+.logros{
+    position: relative;
+    top:600px;
+    left:520px;
+}
+.proyectos, .cafe, .satisfacion, .experiencia, .awards, .code{
+    position: relative;
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 4px;
+    color: black;
+    background-color:#F0F0F0;
+    border-color: #ccc;
+    margin:25px;
+    left:20px;
+}
+
+.experience{
+    position: relative;
+    left:550px;
+    top:650px;
+    border-radius: 4px;
+    display: inline-block;
+    width:520px;
+    height:750px;
+    box-shadow:  0 0 15px #F0F0F0;
+    padding:25px 100px;
+}
+#titulo_expe{
+    position: relative;
+    left:550px;
+    top:625px;
+}
+.separador{
+position: relative;
+border-top: 3px solid #f00;
+background-color: #fff;
+height: 1px;
+width:660px;
+transform: rotate(-90deg);
+left:-390px;
+top:-380px;
+}
+.experience p{
+    margin-bottom: 50px;
+    margin-top: -5px;
+}
+#fecha2{
+    color:#BEBEBE;
+}
+.education{
+    position: relative;
+    left:1300px;
+    top:-210px;
+    border-radius: 4px;
+    display: inline-block;
+    width:520px;
+    height:750px;
+    box-shadow:  0 0 15px #F0F0F0;
+    padding:25px 100px;
+}
+.separador2{
+    position: relative;
+    border-top: 3px solid #f00;
+    background-color: #fff;
+    height: 1px;
+    width:660px;
+    transform: rotate(-90deg);
+    left:-390px;
+    top:-380px;
+}
+.education p{
+    margin-bottom: 60px;
+    margin-top: -5px;
+}
+#titulo_edu{
+    position: relative;
+    left:1300px;
+    top:-230px;
+}
+.servi{
+    position: relative;
+    left:550px;
+    top:-150px;
+}
+.servi img{
+    width: 40px;
+    margin-top: 50px;
+    max-width: auto;
+}
+.foto, .web, .develop, .design, .branding, .marketing{
+    position: relative;
+    display: inline-block;
+    padding: 16px 40px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 4px;
+    color: black;
+    background-color:#F0F0F0;
+    border-color: #ccc;
+    left:-30px;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 60px;
+    margin-left:60px;
+}
+.myworks{
+    position: relative;
+    left:50px;
+    top:40px;
+}
+
+.myworks img{
+    width:auto;
+    margin-top: 100px;
+}
+#redireccion1 {
+    position: relative;
+    top:-144px;
+    right:-260px;
+    width:20px;
+    max-width: auto;
+}
+.worked{
+    margin-top: -40px;
+}
+.work_div, .template_div, .mobile_div, .graphic_div, .template2_div, .mobile2_div{
+    position: relative;
+    border-radius: 4px;
+    top:193px;
+    display: inline-block;
+    box-shadow:  0 0 15px #F0F0F0;
+    width: 270px;
+    right: 355px;
+    height: 50px;
+    padding: 12px 40px;
+}
+.template{
+    position: relative;
+    left:420px;
+    top:-450px;
+}
+.mobile{
+    position: relative;
+    left:840px;
+    top:-900px;
+}
+.graphic{
+    position: relative;
+    top:-900px;
+}
+.template2{
+    position: relative;
+    left:420px;
+    top:-1350px;
+}
+.mobile2{
+    position: relative;
+    left:840px;
+    top:-1797px;
+}
+.myclients{
+   position: relative;
+   top:-1600px;
+   left:60px;
+}
+#amar_img{
+    width:120px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    height: 130px;
+    max-width: auto;
+}
+#amar2_img{
+    width:130px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    max-width: auto;
+}
+.amar , .amar2{
+    position: relative;
+    display: inline-block;
+    padding: 16px 60px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: black;
+    background-color:#F0F0F0;
+    border-color: #ccc;
+    width: 350px;
+    height: 300px;
+    top:40px;
+    margin-left: 70px;
+}
+#amar_img{
+    position: relative;
+    right:545px;
+    top:-200px;
+}
+#comillas ,#comillas2{
+    width: 30px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+#amar2_img{
+    position: relative;
+    right: 560px;
+    top:-200px;
+}
+#mini{
+    width: 20px;
+    position: relative;
+    border-top: 3px solid #f00;
+    background-color: #fff;
+    height: 1px;
+    transform: rotate(-90deg);
+    right: 170px;
+    top:-180px;
+}
+.amar h4{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.amar2 h4{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+#punto{
+    position: relative;
+    font-size: 40px;
+    left:150px;
+    top:-72px;
+}
+#product{
+    position: relative;
+    top:-150px;
+    left:200px;
+}
+.blog{
+    position: relative;;
+    top:-1600px;
+    left:60px;
+}
+.blog img{
+    width:600px;
+    height:360px;
+    max-width: auto;
+}
+.info_diff , .info_succesful, .info_imposter, .info_grow{
+    position: relative;;
+    display: inline-block;
+    border-radius: 4px;
+    width: 480px;
+    height: 160px;
+    background-color: white;
+    box-shadow: 2px 2px 15px#F0F0F0;
+    top:200px;
+    left:-585px;
+    padding:85px 40px;
+}
+#punto1{
+    position: relative;
+    font-size: 60px;
+    left:220px;
+    top:-215px;
+    color:#BEBEBE;
+}
+#mar09{
+    position: relative;
+    color:#BEBEBE;
+    left:55px;
+    top:-110px;
+}
+#hastags{
+    position: relative;
+    left:270px;
+    top:-325px;
+    color:#BEBEBE;
+}
+.read{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    background-color:red;
+    border-color: #ccc;
+    left:5px;
+    top:5px;
+    font-size: 20px;
+}
+.successful{
+    position: relative;
+    left:700px;
+    top:-730px;
+}
+.imposter{
+    position: relative;
+    top:-800px;
+}
+.tools{
+    position: relative;
+    left:700px;
+    top:-1520px;
+}
+.form{
+    display: inline-block;
+    border-radius: 4px;
+    color: black;
+    background-color:#F0F0F0;
+    width: 750px;
+    height: 610px;
+}
+.contact{
+    position: relative;
+    top: -3100px;
+    left: 40px;
+}
+input , textarea{
+    position: relative;
+    margin-bottom: 20px;
+    padding:10px 30px;
+    font-size: 20px;
+    left:50px;
+    top:60px;
+    background-color:#F0F0F0;
+}
+.send{
+    position: relative;
+    display: inline-block;
+    padding: 2px 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    background-color:red;
+    border-color: #ccc;
+    left:-705px;
+    top:100px;
+}
+.send p{
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#send{
+    position: relative;
+    right:910px;
+    bottom:-110px;
+    width: 25px;
+}
+.talk{
+    position: relative;
+    left:870px;
+    top:-3730px;
+    width: 600px;
+}
+.talk img{
+    position: relative;
+    width:20px;
+    max-width:100%;
+    height: auto;
+    margin-top:-15px;
+}
+#info_talk{
+    position: relative;
+    left:50px;
+    top:-18px;
+    margin-top: -10px;
+}
+footer{
+    background-color:#F0F0F0;
+}
+footer p{
+    text-align: center;
+    padding-bottom: 40px;
+}
+#copyright{
+    position: relative;
+    width: 40px;
+    left:950px;
+    top:50px;
+}
