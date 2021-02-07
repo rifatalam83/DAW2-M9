@@ -583,3 +583,9 @@ footer p{
     left:950px;
     top:50px;
 }
+#Logo{
+    position: relative;
+    top: 40px;
+    left:-50px;
+    width: 60px;
+}
